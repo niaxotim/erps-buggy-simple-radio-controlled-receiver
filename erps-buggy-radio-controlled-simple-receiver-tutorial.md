@@ -80,7 +80,7 @@ radio.onReceivedValue(function (name, value) {
 ### Step 5
 Finally, we need to tell our buggy what to do when it receives this command!  
 
-Drag a ``||Kironik_Move_Motor:move Forward at speed 0||`` block in to the if-statement,
+Drag a ``||Kitronik_Move_Motor:move Forward at speed 0||`` block in to the if-statement,
 and replace the '0' with our variable "value".  
 
 #### ~ tutorialhint
@@ -116,7 +116,7 @@ radio.onReceivedValue(function (name, value) {
 Finally, we need to tell our buggy to stop if anything else is received, otherwise
 it will keep moving, even if we stop pressing buttons on our controller!  
 
-In the final 'else' part of our conditional statement, put a ``||Kironik_Move_Motor:stop||`` block.
+In the final 'else' part of our conditional statement, put a ``||Kitronik_Move_Motor:stop||`` block.
 
 #### ~ tutorialhint
 ```blocks
